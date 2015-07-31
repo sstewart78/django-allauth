@@ -4,5 +4,6 @@ from django.utils.translation import ugettext_lazy as _
 
 
 class AccountConfig(AppConfig):
-    name = 'allauth.accounts'
+    name = 'allauth.account'
     verbose_name = _('Accounts')
+    label = 'accounts'
